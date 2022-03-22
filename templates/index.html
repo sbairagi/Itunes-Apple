@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+
+{% block title %}
+Index
+{% endblock title %}
+
+{% block body %}
+
+    <h1>Index page</h1>
+
+    <form action="" method="post">{% csrf_token %}
+
+        <input name="itune_id" type="text" required>
+        <input type="submit">
+    </form>
+    <!-- <button class="btn">
+        <a href="/showdata">view data</a>
+    </button> -->
+
+
+{% endblock body %}

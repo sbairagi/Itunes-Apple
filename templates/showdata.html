@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+
+{% block title %}
+Show Data
+{% endblock title %}
+
+{% block body %}
+<div class="container">
+ <p>Description: {{data.description}}</p>
+ <h5>Genres: {{data.genres}}</h5>
+ <h5>Price: {{data.price}}</h5>
+ <h5>Artist Name: {{data.artistName}}</h5>
+ <h5>Artist Id: {{data.artistId}}</h5>
+</div>
+{% endblock body %}
